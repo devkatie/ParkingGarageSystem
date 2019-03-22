@@ -2,6 +2,7 @@ package model;
 
 public interface Vehicle {
 
-	void park();
+	void park(ParkingSpot spot);
+
 	void unpark();
 }

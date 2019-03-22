@@ -3,7 +3,7 @@ package model;
 public class Motorcycle implements Vehicle {
 
 	@Override
-	public void park() {
+	public void park(ParkingSpot spot) {
 		// TODO Auto-generated method stub
 
 	}

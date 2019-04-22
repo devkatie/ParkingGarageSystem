@@ -1,12 +1,16 @@
 package model;
 
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 public class Ticket extends Printable {
 
 	public Ticket(String licensePlate, String attendantName, String paymentScheme) {
-		Date date = new Date();
-		String timeOriginated = "" + date.getTime();
+		DateTimeFormatter formatter = DateTimeFormatter.ISO_LOCAL_DATE_TIME;
+		String timeOriginated = formatter.format(LocalDateTime.now());
 		this.setTime(timeOriginated);
 		this.setLicensePlate(licensePlate);
 		this.setAttendantName(attendantName);

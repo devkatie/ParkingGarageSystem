@@ -2,10 +2,13 @@ package model;
 
 public class ParkingSpot {
 
-	VehicleType type;
+	private Vehicle vehicle;
 
-	public ParkingSpot(VehicleType type) {
-		this.type = type;
+	public void park(Vehicle vehicle) {
+		this.vehicle = vehicle;
 	}
 
+	public void unpark() {
+		vehicle = null;
+	}
 }

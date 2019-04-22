@@ -1,7 +1,5 @@
 package model;
 
-import java.util.Date;
-
 public class Demo {
 	public static void main(String[] args) {
 
@@ -11,7 +9,7 @@ public class Demo {
 		System.out.println();
 		System.out.println(receipt.printOut());
 		System.out.println("Completed!");
-		//test
+		// test
 	}
 
 }

@@ -3,15 +3,13 @@ package model;
 public class Truck implements Vehicle {
 
 	@Override
-	public void park(ParkingSpot spot) {
-		// TODO Auto-generated method stub
-
+	public double getHourlyPrice() {
+		return 5.00;
 	}
 
 	@Override
-	public void unpark() {
-		// TODO Auto-generated method stub
-
+	public double getEarlyBirdPrice() {
+		return 40.00;
 	}
 
 }

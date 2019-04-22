@@ -8,6 +8,8 @@ public class Demo {
 		System.out.println(ticket.printOut());
 		System.out.println();
 		System.out.println(receipt.printOut());
+		Vehicle car = new Truck();
+		System.out.println(car.getEarlyBirdPrice());
 		System.out.println("Completed!");
 		// test
 	}

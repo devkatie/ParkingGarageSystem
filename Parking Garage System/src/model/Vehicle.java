@@ -2,7 +2,7 @@ package model;
 
 public interface Vehicle {
 
-	void park(ParkingSpot spot);
+	public double getHourlyPrice();
 
-	void unpark();
+	public double getEarlyBirdPrice();
 }

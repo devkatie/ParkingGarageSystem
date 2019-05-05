@@ -1,8 +1,8 @@
 package model;
 
-public class Manager extends Worker {
+public class Manager {
 
-	public void createAttendant(String name) {
-		// create attendant
+	public Attendant createAttendant(String name) {
+		return new Attendant(name);
 	}
 }

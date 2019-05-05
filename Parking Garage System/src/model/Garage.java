@@ -31,7 +31,7 @@ public class Garage {
 		this.motorcycles = 20;
 		this.trucks = 20;
 		this.total = 100;
-		garageMap = new HashMap<Integer, ParkingSpot>(total); 
+		garageMap = new HashMap<Integer, ParkingSpot>(total);
 	}
 
 }

@@ -14,6 +14,8 @@ public class Demo {
 		Manager manager = new Manager();
 		Attendant attendant = manager.createAttendant("Susan");
 		System.out.println(attendant.getName());
+		manager.deleteAttendant("Susan");
+		System.out.println(manager.hasAttendant("Susan"));
 
 		// Vehicle Testing
 		Vehicle car = new Truck("PLATE1");

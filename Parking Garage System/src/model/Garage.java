@@ -26,6 +26,18 @@ public class Garage {
 		garageMap = new HashMap<Integer, ParkingSpot>(total);
 	}
 
+	public int carSpots() {
+		return cars;
+	}
+
+	public int truckSpots() {
+		return trucks;
+	}
+
+	public int motorcycleSpots() {
+		return motorcycles;
+	}
+
 	public Garage() {
 		this.cars = 60;
 		this.motorcycles = 20;
